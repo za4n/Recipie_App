@@ -1,0 +1,61 @@
+*,*::before,*::after{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+nav{
+    position: relative;
+    display: flex;
+    padding: 0.7em 1.9em;
+    justify-content: space-around;
+    background-color: rgb(242, 242, 242);
+    margin-bottom: 1rem;
+}
+.navbar{
+    display: flex;
+    align-items: center;
+    gap: 0.7rem;
+    padding: 0.5em 0.4em;
+    background-color: #f7f7f7;
+    
+}
+.navbar li{
+    color: black;
+    text-decoration: none;
+    list-style: none;
+}
+.save-button:disabled{
+ opacity: 0.6;
+}
+
+.user-profile {
+    display: flex;
+    align-items: center;
+}
+.profile-circle {
+    text-align: center;
+   width: 1.4rem;
+   height: 1.4rem;
+   padding: 0;
+    background-color: #3498db;
+    border-radius: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #ffffff;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.profile-links a {
+    text-decoration: none;
+    margin-right: 10px;
+    color: #3498db;
+    font-weight: bold;
+}
+.profile-links a:hover {
+    text-decoration: underline;
+}
